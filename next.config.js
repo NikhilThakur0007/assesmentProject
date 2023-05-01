@@ -8,10 +8,10 @@ const nextConfig = {
 module.exports = {
   nextConfig,
   env: {
-    MYSQL_HOST: "127.0.0.1",
+    MYSQL_HOST: "sql12.freemysqlhosting.net",
     MYSQL_PORT: "3306",
-    MYSQL_DATABASE: "test",
-    MYSQL_USER: "root",
-    MYSQL_PASSWORD: "",
+    MYSQL_DATABASE: "sql12614431",
+    MYSQL_USER: "sql12614431",
+    MYSQL_PASSWORD: "qGFvy8pTWH",
   },
 };
