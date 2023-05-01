@@ -16,7 +16,7 @@ export default function Home() {
         ...prev,
         loading: true,
       }));
-      const res = await axios.post(`http://localhost:3000/api/form`, {
+      const res = await axios.post(`${window.location.origin}/api/form`, {
         name: first.name,
         email: first.email,
         description: first.description,
@@ -37,7 +37,8 @@ export default function Home() {
       ...prev,
       loading: true,
     }));
-    const res = await axios(`http://localhost:3000/api/form`);
+
+    const res = await axios(`${window.location.origin}/api/form`);
     setfirst((prev) => ({
       ...prev,
       value: res.data,
